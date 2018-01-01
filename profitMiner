@@ -1,5 +1,6 @@
 #!/bin/bash
 # Script for profit switching on miningpoolhub.com
+# To be used with ccminer
 # Will keep switching though ports until q is pressed
 # Katie Rabbitt 01/01/2018
 
