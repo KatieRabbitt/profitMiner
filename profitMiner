@@ -12,7 +12,8 @@ export USERNAME=yourusername
 export WORKERNAME=yourworkername
 
 
-# each line consists of executable -r for retries of each line -T timeout of 1 sec -a algorithm used, -o stratum port -u variables -d display devices
+# each line consists of executable, -r for retries of each line, -T timeout of 1 sec, 
+# -a algorithm used, -o stratum port, -u variables, -d display devices
 ./ccminer -r 0 -T 1 -a groestl -o stratum+tcp://hub.miningpoolhub.com:12004 -u $USERNAME.$WORTKERNAME -d
 ./ccminer -r 0 -T 1 -a myr-gr -o stratum+tcp://hub.miningpoolhub.com:12005 -u $USERNAME.$WORKERNAME -d
 ./ccminer -r 0 -T 1 -a x11 -o stratum+tcp://hub.miningpoolhub.com:12007 -u $USERNAME.$WORKERNAME -d
